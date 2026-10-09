@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fer | Minnie Mouse</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{
+  min-height:100vh;display:flex;justify-content:center;align-items:center;
+  background:#ffd6e7;position:relative;padding:20px;overflow:hidden;
+}
+body::before{
+  content:'';position:fixed;inset:0;
+  background:url('fondo.png') center/cover no-repeat;
+  opacity:0.92;z-index:0;
+}
+.card{
+  position:relative;z-index:10;width:100%;max-width:390px;
+  background:rgba(255,255,255,0.92);backdrop-filter:blur(10px);
+  border:3px solid #000;border-radius:36px;
+  box-shadow:8px 8px 0 #000;padding:0 0 22px 0;
+  overflow:hidden;text-align:center;
+}
+.top-bar{
+  background:#ff3b7f;border-bottom:3px solid #000;
+  padding:13px;font-family:'Pacifico';font-size:19px;color:white;
+}
+.avatar{
+  width:122px;height:122px;border-radius:50%;border:3px solid #000;
+  margin:-30px auto 10px;background:url('foto.jpg') center top / cover;
+  box-shadow:0 0 0 5px #ffb6d0, 0 0 0 8px #000;
+}
+h1{font-size:26px;font-weight:800;margin-top:10px}
+.user{font-size:13px;opacity:0.7;font-weight:600;margin-bottom:4px}
+.badge{
+  display:inline-block;background:#ff2d78;color:white;
+  padding:6px 16px;border-radius:20px;font-size:11px;
+  font-weight:800;border:2px solid #000;box-shadow:3px 3px 0 #000;
+  margin-bottom:18px;
+}
+.links{padding:0 22px}
+.btn{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  width:100%;padding:14px;margin:11px 0;border-radius:50px;
+  text-decoration:none;font-weight:800;border:2.5px solid #000;
+  box-shadow:5px 5px 0 #000;font-size:15px;transition:0.15s;color:white;
+}
+.btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #000}
+.tk{background:#000}
+.wa{background:#25D366}
+.ig{background:linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)}
+.fb{background:#1877F2}
+.footer{margin-top:16px;font-size:10px;opacity:0.5;font-weight:600}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top-bar">🎀 Minnie Girl 🎀</div>
+  <div class="avatar"></div>
+  <h1>Fer✨</h1>
+  <div class="badge">💖 Minnie Lover 🐭</div>
+  <div class="links">
+    <a class="btn tk" href="https://www.tiktok.com/@floopy_100" target="_blank">🎵 TikTok</a>
+    <a class="btn wa" href="https://wa.me/593990155645" target="_blank">💬 WhatsApp</a>
+    <a class="btn ig" href="https://www.instagram.com/flopyy_01" target="_blank">📸 Instagram</a>
+    <a class="btn fb" href="https://www.facebook.com/fer.orrala.2025" target="_blank">📘 Facebook</a>
+  </div>
+  <div class="footer">🎀 Fer 🎀</div>
+</div>
+</body>
+</html>
